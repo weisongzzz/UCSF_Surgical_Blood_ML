@@ -1,6 +1,5 @@
-# Blood_Products_Prediction
+# UCSF Surgical Blood Product Recommendation System
 The SmartMatch AI project at UCSF takes cleaned EHR from the HIPAC team and creates recommendations of blood products/tests ordering to mitigate waste of blood and operational costs associated with elective surgeries. 
-### All code hidden due to university policy
 
 ## Outputs
 - Probabilities for RBC, FFP, Platelet from the multi-classification ML model
