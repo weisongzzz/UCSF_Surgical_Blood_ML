@@ -1,12 +1,34 @@
 # UCSF Surgical Blood Product Recommendation System
-The SmartMatch AI project at UCSF takes cleaned EHR from the HIPAC team and creates recommendations of blood products/tests ordering to mitigate waste of blood and operational costs associated with elective surgeries. 
+Leveraging machine learning to provide real-time recommendations for blood product and test ordering in non-emergency surgeries at UCSF, reducing waste and operational costs.
 
-## Outputs
-- Probabilities for RBC, FFP, Platelet from the multi-classification ML model
+## Overview
 
-- Labeled recommendations for clinicians (downstream implementation by the HIPAC team)
+## Key Features
+- Multi-Class Prediction: Generates probabilities for the need of RBC, FFP, and Platelet transfusions.
 
-## Scripts 
+- Actionable Recommendations: Translates model outputs into clear, actionable recommendations for clinicians.
+
+- Operational Cost Reduction: Aims to mitigate waste of blood products and associated costs.
+
+## Getting Started
+
+## Installation:
+
+git clone [your_repo_link]
+
+cd [your_repo_folder]
+
+conda env create -f environment.yml
+
+conda activate [your_env_name]
+
+Usage: Explain the core scripts and their purpose.
+
+## Model Training & Development:
+
+## Data Analysis & Visualization:
+
+## Utilities:
 
 ### environment.yml
 run it in the terminal to set up all packages for the Python environment.
@@ -73,3 +95,5 @@ Playground for the multi-classification model
 3. hipac_modeling_tools_reduced: using Sunny et al. features
 4. hipac_modeling_tools: iteration 2 model with data prior to 202409
 5. hipac_modeling_tools: iteration 2 model with data after 202409
+
+## Contributors 
