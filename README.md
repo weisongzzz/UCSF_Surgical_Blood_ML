@@ -1,14 +1,17 @@
 # UCSF Surgical Blood Product Recommendation System
-Leveraging machine learning to provide real-time recommendations for blood product and test ordering in non-emergency surgeries at UCSF, reducing waste and operational costs.
 
 ## Overview
+
+Leveraging machine learning to provide real-time recommendations for blood product and test ordering in non-emergency surgeries at UCSF, reducing waste and operational costs.
+
+This system aims to **optimize blood inventory management and enhance patient safety** by predicting the likelihood of transfusion needs for Red Blood Cells (RBC), Fresh Frozen Plasma (FFP), and Platelets *before* a procedure begins.
 
 ## Key Features
 - Multi-Class Prediction: Generates probabilities for the need of RBC, FFP, and Platelet transfusions.
 
 - Actionable Recommendations: Translates model outputs into clear, actionable recommendations for clinicians.
 
-- Operational Cost Reduction: Aims to mitigate waste of blood products and associated costs.
+- Cost Reduction: Aims to mitigate waste of precious blood products and associated operational costs.
 
 ## Getting Started
 
